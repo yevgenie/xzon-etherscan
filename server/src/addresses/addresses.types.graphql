@@ -1,0 +1,23 @@
+type Query {
+  address(id: ID!): Address
+}
+
+type Address {
+  status: String
+  message: String
+  balance: String
+  transactions(first: Int fromDate: Int): [Transaction]
+}
+
+type Transaction {
+  blockNumber: Int!
+  hash: String
+  value: String
+  gasPrice: String
+  timeStamp: String
+  blockHash: String
+  from: String
+  to: String
+  contractAddress: String
+  isError: String
+}

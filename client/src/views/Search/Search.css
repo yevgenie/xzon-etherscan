@@ -1,0 +1,37 @@
+.search-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0
+}
+
+.search-address {
+    max-width: 800px;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+  }
+
+  .search-address input {
+    flex: 1;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    outline: none;
+  }
+
+  .search-filters {
+    max-width: 800px;
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .search-filters button {
+      font-size: 1em;
+  }

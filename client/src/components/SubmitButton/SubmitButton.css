@@ -1,0 +1,18 @@
+.submitButton {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #2980b9;
+    outline: none;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 33px -8px rgba(0,0,0,0.48);
+    -moz-box-shadow: 1px 3px 33px -8px rgba(0,0,0,0.48);
+    box-shadow: 1px 3px 33px -8px rgba(0,0,0,0.48);
+}
+
+.submitButton:hover {
+    background-color: #3498db;
+}
